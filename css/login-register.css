@@ -1,0 +1,641 @@
+@media only screen and (min-width:1px) and (max-width:400px){
+  html{
+    width: 400px;
+    height: 854px;
+  }
+  
+  div.rigth-container{
+    display: flex;
+    position: absolute;
+    width: 0px;
+  }
+
+  div.left-container{
+    width: 400px;
+    background-image: url(../img/astronautarecortada.jpg);
+  }
+
+  .separador-container strong{
+    font-size: 20px;
+  }
+
+  .form1{
+    width: 383px;
+  } 
+
+  .logo-container img{
+    width: 100px;
+    height: 100px;
+  }
+
+  div.inputs-container{
+    width: 350px;
+    margin-left: 10px;
+  
+  }
+
+  div.inputs-container label{
+    margin: 0;
+    font-size: 17px;
+  }
+
+  input#username.button-login{
+    margin: 0;
+  }
+
+  div.inputs-container2{
+    width: 350px;
+    margin-left: 10px;
+    
+  }
+
+  input#password.button-password{
+    padding-left: 150px;
+    padding-right: 195px;
+    margin-left: 0px;
+    margin-top: 0;
+  }
+
+  div.inputs-container2 label{
+    margin-left: 0;
+    font-size: 17px;
+  }
+
+  div.options-container{
+    gap: 30px;
+  }
+
+  div.options-container label{
+  font-size: 13px;  
+  }
+
+  div.options-container a{
+    font-size: 13px;
+    
+  }
+
+  /* REGISTRO */
+
+  form.form2{
+    width: 400px;
+    margin: 0px;
+  }
+
+  div.title-container{
+    font-size: 13px;
+  }
+
+  div.title-container h1{
+    padding: 0px;
+  }
+
+  div.bienvenido{
+    height: 34px;
+  }
+
+  div.bienvenido h2{
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  div.registro-username{
+    width: 300px;
+    margin: 0px 0px 0px 50px; 
+  }
+
+  div.registro-username label{
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 30px;
+  }
+
+
+  div.registro-email{
+    width: 300px;
+    margin: 10px 0px 0px 50px; 
+  }
+
+  div.registro-email label{
+    font-size: 12px;
+    margin: 0px;
+    
+  }
+
+  input#email.button-login{
+    margin: 0px;
+    width: 286px;
+  }
+
+  div.registro-password{
+    width: 300px;
+    margin: 10px 0px 0px 50px; 
+  }
+
+  div.registro-password label{
+    font-size: 12px;
+    margin: 0px;
+    
+  }
+
+  input#password.button-login{
+    margin: 0px;
+    width: 286px;
+  }
+
+  div.registro-password-confirm{
+    width: 300px;
+    margin: 10px 0px 0px 50px; 
+  }
+
+  div.registro-password-confirm label{
+    font-size: 12px;
+    margin: 0px;
+  }
+
+  input#password-confirm.button-login{
+    margin: 0px;
+    width: 286px;
+  }
+
+  div.check-recordar{
+    margin: 10px 0px 0px 50px;
+  }
+}
+  
+
+
+@media only screen and (min-width:450px) and (max-width:1500px){
+  .form1{
+    margin: 0px;
+  }
+
+  div.title-container h1{
+    font-size: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.inputs-container{
+    margin: 0;
+  }
+
+  div.logo-container img{
+    width: 150px;
+    height: 150px;
+  }
+
+  div.inputs-container2{
+    margin-top: 0px;
+  }
+
+  div.separador-container{
+    margin-top: 10px;
+  }
+  .separador-container span{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .inputs-container label strong{
+    font-size: 18px;
+  }
+
+  .inputs-container2 label strong{
+    font-size: 18px;
+  }
+
+  #username.button-login{
+    padding: 1px;
+  }
+
+  div.options-container{
+    gap: 80px;
+    font-size: 16px;
+  }
+
+  .logo-container img{
+    width: 150px;
+    height: 150px;
+  }
+
+  #password.button-password{
+    padding: 1px;
+  }
+
+  /* REGISTRO */
+
+  form.form2{
+    margin: 0;
+  }
+
+  div.bienvenido{
+    height: 34px;
+  }
+
+  div.bienvenido h2{
+    margin: 0;
+  }
+
+  div.title-container h1{
+    margin: 0;
+  }
+
+  input#email.button-login{
+    height: 21px;
+    padding: 1px;
+  }
+
+  input#password.button-login{
+    height: 21px;
+    padding: 1px;
+  }
+
+  input#password-confirm.button-login{
+    height: 21px;
+    padding: 1px;
+  }
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+form {
+  width: 811px;
+  height: 800px;
+  margin-bottom: 150px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #021f59; */
+  background: linear-gradient(40deg, rgba(37,28,131,1) 14%, rgba(194,81,222,1) 39%, rgba(212,64,131,1) 64%, rgba(0,0,0,1) 80%);
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+}
+
+.rigth-container {
+  background-color: #a0b4f2;
+  position: relative;
+  left: 50%;
+  width: 50%;
+  height: 100vh;
+  background-image: url(../img/astronauta2.jpg);
+  background-position: center center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container img{
+  width: 250px;
+  height: 250px;
+}
+
+.login-social-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login-social-container button {
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+}
+
+.separador-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+h1 {
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+
+.btn-google {
+  border: solid 1px;
+  border-color: gray;
+  width: 100%;
+  padding: 9px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  font-weight: border;
+}
+
+.inputs-container,
+.inputs-container2 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-container input {
+  margin: 10px 150px;
+  border-radius: 5px;
+  height: 20px;
+  outline: none;
+  padding: 4px 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+}
+
+.inputs-container input:hover{
+  background-color: #2c344b;
+  color: rgb(255, 115, 0);
+  margin: 10px 150px;
+  border-radius: 5px;
+  height: 20px;
+  outline: none;
+  border-color: #2c344b;
+  padding: 4px 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-login:hover {
+  box-shadow: 3px 3px 5px 0px rgb(255, 115, 0);
+}
+
+.button-password:hover {
+  box-shadow: 3px 3px 5px 0px rgb(255, 115, 0);
+}
+
+.inputs-container2 input {
+  margin: 10px 150px;
+  border-radius: 5px;
+  height: 20px;
+  outline: none;
+  padding: 4px 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+}
+
+.inputs-container2 input:hover{
+  background-color: #2c344b;
+  color: rgb(255, 115, 0);
+  margin: 10px 150px;
+  border-radius: 5px;
+  border-color: #2c344b;
+  height: 20px;
+  outline: none;
+  padding: 4px 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputs-container2 label {
+  margin: 0px 150px;
+  font-size: 25px;
+}
+
+.inputs-container label {
+  margin: 0px 150px;
+  font-size: 25px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 15px;
+}
+
+.options-container input{
+  width: 20px;
+  height: 15px;
+}
+
+.options-container a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+
+.buttons-container input {
+  padding: 15px 25px;
+  border-radius: 4px;
+  background-color: rgb(255, 102, 0);
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+  border-width: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.register-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-social-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  height: 50px;
+}
+
+.login-social-container button {
+  width: 50px;
+  border-radius: 200px 200px 200px 200px;
+  border-width: 0px;
+}
+
+.login-social-container div {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -4px -4px;
+}
+
+/* Registro */
+
+.left-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form2{
+  width: 600px;
+  height: 800px;
+  margin: 50px 30px;
+  margin-bottom: 200px;
+}
+
+.title-container h1{
+  font-size: 20px;
+}
+
+.bienvenido{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+
+}
+
+.registro-username{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+
+.registro-username input{
+  margin: 0 50px;
+  outline: none;
+  padding: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+  border-radius: 4px;
+  font-size: 18px;
+  
+}
+
+.registro-username input:hover{
+  background-color: #2c344b;
+  border-color: #2c344b;
+  color: rgb(255, 102, 0);
+}
+
+.registro-username label{
+  margin: 0px 50px;
+  font-size: 20px;
+}
+
+.registro-email{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+
+.registro-email input{
+  margin: 0 50px;
+  outline: none;
+  padding: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.registro-email input:hover{
+  background-color: #2c344b;
+  border-color: #2c344b;
+  color: rgb(255, 102, 0);
+}
+
+.registro-email label{
+  margin: 0px 50px;
+  font-size: 20px;
+}
+
+.registro-password{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+
+.registro-password input{
+  margin: 0 50px;
+  outline: none;
+  padding: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.registro-password input:hover{
+  background-color: #2c344b;
+  border-color: #2c344b;
+  color: rgb(255, 102, 0);
+}
+
+.registro-password label{
+  margin: 0px 50px;
+  font-size: 20px;
+}
+
+.registro-password-confirm{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px 0px 30px;
+}
+
+.registro-password-confirm input{
+  margin: 0 50px;
+  outline: none;
+  padding: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.registro-password-confirm input:hover{
+  background-color: #2c344b;
+  border-color: #2c344b;
+  color: rgb(255, 102, 0);
+}
+
+.registro-password-confirm label{
+  margin: 0px 50px;
+  font-size: 20px;;
+}
+
+.check-recordar{
+  display: flex;
+  justify-content: start;
+  margin-left: 80px;
+  font-size: 16px;
+}
+
+.boton-register{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.boton-register input{
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: rgb(255, 102, 0);
+  box-shadow: 3px 3px 5px 0px rgba(5, 0, 0, 0.75);
+  border-width: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
